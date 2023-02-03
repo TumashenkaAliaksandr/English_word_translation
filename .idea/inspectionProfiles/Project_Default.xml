@@ -1,0 +1,58 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="LossyEncoding" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyCallingNonCallableInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="4">
+            <item index="0" class="java.lang.String" itemvalue="pyTelegramBotAP" />
+            <item index="1" class="java.lang.String" itemvalue="python-Telegram-Bot" />
+            <item index="2" class="java.lang.String" itemvalue="typed-ast" />
+            <item index="3" class="java.lang.String" itemvalue="cffi" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E302" />
+          <option value="E201" />
+          <option value="E303" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyTypeCheckerInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnboundLocalVariableInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="main.a" />
+          <option value="main.b" />
+          <option value="main.c" />
+          <option value="dict.__mul__" />
+          <option value="dict.__add__" />
+          <option value="J_bot" />
+          <option value="J_bot.*" />
+          <option value="cachetools.keys" />
+          <option value="web.models" />
+          <option value="users.admin.user" />
+          <option value="full.api.views.*" />
+          <option value="mysite.mysite.views" />
+          <option value="main.canel_operation" />
+          <option value="aiogram.types.*" />
+          <option value="actions.send_message.*" />
+          <option value="fake_useragent" />
+          <option value="int.*" />
+          <option value="web_parser.parser_dog.selenium_stealth" />
+          <option value="lib.csv_handler" />
+          <option value="web_parser.parser_dog.seleniumwire" />
+          <option value="str.text" />
+          <option value="list.add" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
